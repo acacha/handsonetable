@@ -18,10 +18,12 @@ mix.js('resources/assets/js/app.js', 'public/js')
    .less('resources/assets/less/adminlte-app.less','public/css/adminlte-app.css')
    .less('node_modules/toastr/toastr.less','public/css/toastr.css')
    .combine([
+       'node_modules/handsontable/dist/handsontable.css',
        'public/css/app.css',
        'node_modules/admin-lte/dist/css/skins/_all-skins.css',
        'public/css/adminlte-app.css',
        'node_modules/icheck/skins/square/blue.css',
+       'node_modules/handsontable/plugins/bootstrap/handsontable.bootstrap.css',
        'public/css/toastr.css'
    ], 'public/css/all.css')
    .combine([

@@ -22,6 +22,10 @@ Route::group(['middleware' => 'auth'], function () {
 
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
+    Route::get('handsontable2', 'Handsontable2Controller@index')->name('handsontable2');
+
+    Route::get('handsontable1', 'Handsontable1Controller@index')->name('handsontable1');
+
     Route::get('handsontable', 'HandsontableController@index')->name('handsontable');
 
 });

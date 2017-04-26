@@ -1,32 +1,17 @@
-@extends('adminlte::page')
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
 
-@section('htmlheader_title')
-	Change Title here!
-@endsection
+<div id="tablehandson"></div>
 
-
-@section('main-content')
-	<div class="container-fluid spark-screen">
-		<div class="row">
-			<div class="col-md-9 col-md-offset-1">
-
-				<div class="box box-success box-solid">
-                    <div class="box-header with-border">
-                        <h3 class="box-title">Example box</h3>
-                        <div class="box-tools pull-right">
-                            <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                            <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                        </div>
-                        <!-- /.box-tools -->
-                    </div>
-                    <!-- /.box-header -->
-                    <div class="box-body">
-                        Put your content here
-                    </div>
-                    <!-- /.box-body -->
-                </div>
-
-			</div>
-		</div>
-	</div>
-@endsection
+<script src="js/app.js"></script>
+</body>
+</html>
